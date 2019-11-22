@@ -10,7 +10,7 @@
             SET(CMAKE_BUILD_TYPE "Debug")
 3. 可以利用 CMakeLists.txt 来生成可执行文件，然后
             利用 launch.json 来断点调试
-    launch.json 目前 type 为 lldb, 默认为 cppdbg
+    launch.json 目前 type 为 lldb, 默认为 cppdbg.
 
 */
 
