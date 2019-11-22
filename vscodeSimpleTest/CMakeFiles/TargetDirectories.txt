@@ -1,0 +1,3 @@
+/Users/yuanzhaoyang/test/vscodeSimpleTest/CMakeFiles/rebuild_cache.dir
+/Users/yuanzhaoyang/test/vscodeSimpleTest/CMakeFiles/edit_cache.dir
+/Users/yuanzhaoyang/test/vscodeSimpleTest/CMakeFiles/hello.dir
