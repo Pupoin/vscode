@@ -1,8 +1,6 @@
-m
-a
-ster
-
-啊我的饭
-阿斯顿
-master 
- maser
+{
+	asdfi
+	afsd;
+	adsfio;
+	adfio;
+}
