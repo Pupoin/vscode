@@ -1,6 +1,5 @@
 # vscode
-duduud
 
 how to use vscode with c++ on MacBook
 
-change 2019年11月24日
+change 2019/11/24 15:43
