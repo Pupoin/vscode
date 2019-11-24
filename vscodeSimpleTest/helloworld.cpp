@@ -25,7 +25,7 @@ int main(int arg, char** argv)
     cout << c << "" << endl;
 
     constexpr int v = 5;
-    
+    ->
 
     cout << v;
 
