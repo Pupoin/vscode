@@ -22,7 +22,7 @@ int main(int arg, char** argv)
     int c;
     c = a+b;
 
-    cout << c << endl;
+    cout << c << "" << endl;
 
     constexpr int v = 5;
     
