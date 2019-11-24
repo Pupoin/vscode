@@ -21,7 +21,7 @@ int main(int arg, char** argv)
     int b = 10; 
     int c;
     c = a+b;
-
+    
     cout << c << "" << endl;
 
     constexpr int v = 5;

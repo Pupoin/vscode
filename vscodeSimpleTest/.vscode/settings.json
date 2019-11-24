@@ -1,5 +1,14 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    // "editor.fontFamily": "Fira Code",
+    // "editor.fontFamily": "FiraCode-Retina",
+    // "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    // "editor.fontWeight": "300" // Light
+    // "editor.fontWeight": "400" // Regular
+    // "editor.fontWeight": "500" // Medium
+    // "editor.fontWeight": "600" // Bold
 }
+
