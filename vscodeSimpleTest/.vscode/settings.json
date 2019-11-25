@@ -1,6 +1,9 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp"
     },
     // "editor.fontFamily": "Fira Code",
     // "editor.fontFamily": "FiraCode-Retina",
