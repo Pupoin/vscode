@@ -3,7 +3,9 @@
         "iostream": "cpp",
         "algorithm": "cpp",
         "ostream": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "map": "cpp",
+        "__tree": "cpp"
     },
     // "editor.fontFamily": "Fira Code",
     // "editor.fontFamily": "FiraCode-Retina",

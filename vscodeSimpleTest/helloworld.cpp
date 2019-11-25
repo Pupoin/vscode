@@ -23,7 +23,7 @@ void fun2();
 
 int main(int arg, char **argv)
 {
-    fun0();
+    fun2();
 
     return 0;
 }
@@ -33,7 +33,16 @@ void fun2()
     // m 前者为 key , 后者为 value
     map<string, int> m;
     m.insert(pair<string, int>("one", 1));
-    m.insert(map<string, int>::value_type("two", 2));
+    m.insert(map<string, int>::value_type("three", 3));
+    
+    typedef map<string, int>::value_type val_type;
+    m.insert(val_type("two", 2));
+
+    m["ewf"] = 3;
+    m["ewf"] = 4;
+
+    // map<string,int>::iterator itor = m.find("ewf");
+    // cout << *itor << "\n";
 
     // for(const auto &c : m)
     // {
@@ -73,13 +82,24 @@ void fun0()
     }
 
     cout << "\n\n迭代器 遍历" << endl;
-    vector<string>::iterator it; //声明一个迭代器，来访问vector容器，作用：遍历或者指向vector容器的元素
+    //声明一个迭代器，来访问vector容器，作用：遍历或者指向vector容器的元素
+    vector<string>::iterator it;
+
     m.insert(m.begin(), "haha");
 
     for (it = m.begin(); it != m.end(); it++)
     {
         cout << *it << " ";
     }
+    for (auto c : m)
+    {
+    }
+    // int arr[] ={4,4,53,3,35,35,35,3};
+    // for each (auto ss in arr)
+    // {
+    //     cout << ss << " ";
+
+    // }
 
     cout << "\n\n二维 vector" << endl;
     int N = 5, M = 6;
