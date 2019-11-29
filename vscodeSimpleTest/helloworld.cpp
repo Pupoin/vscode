@@ -34,12 +34,13 @@ void fun2()
     map<string, int> m;
     m.insert(pair<string, int>("one", 1));
     m.insert(map<string, int>::value_type("three", 3));
-    
+
     typedef map<string, int>::value_type val_type;
     m.insert(val_type("two", 2));
 
     m["ewf"] = 3;
     m["ewf"] = 4;
+    cout << m["ewf"] << "\n";
 
     // map<string,int>::iterator itor = m.find("ewf");
     // cout << *itor << "\n";
