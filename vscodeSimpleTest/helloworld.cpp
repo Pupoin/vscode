@@ -24,6 +24,7 @@ void fun2();
 int main(int arg, char **argv)
 {
     fun2();
+    cout << "end5678987";
 
     return 0;
 }

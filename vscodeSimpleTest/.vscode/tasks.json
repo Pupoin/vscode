@@ -10,7 +10,7 @@
           "args": [
             "-std=c++17",
             "-stdlib=libc++",
-            "helloworld.cpp",
+            "pointer.cc",
             "-o",
             "hello",
             "--debug"
