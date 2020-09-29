@@ -6,15 +6,15 @@
     "configurations": [
         {
             "name": "(lldb) Launch",
-            "type": "lldb",
+            "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/a.out",
             "args": [],
-            // "stopAtEntry": false,
+            "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            // "environment": [],
-            // "externalConsole": false,
-            // "MIMode": "lldb"
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
     ]
 }

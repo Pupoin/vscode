@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.dec": "shellscript",
+        "vector": "cpp"
+    }
+}
